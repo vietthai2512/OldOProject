@@ -5,3 +5,4 @@ GUI for my OOP Project with JavaFX. Refactor it to modular project with Gradle. 
 ./gradlew run
 ``` 
 ## Demo
+![demo](https://gfycat.com/weakbaggyblacklab)
