@@ -24,7 +24,7 @@ public class ShowChonTag
 	{
 		try
 		{
-			root = FXMLLoader.load(getClass().getResource("/fxml/ChonTag.fxml"));
+			root = FXMLLoader.load(getClass().getResource("/org.miranchuk/fxml/ChonTag.fxml"));
 		}
 		catch(IOException e)
 		{

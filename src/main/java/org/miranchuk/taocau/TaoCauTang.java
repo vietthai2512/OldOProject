@@ -1,8 +1,8 @@
-package taocau;
+package org.miranchuk.taocau;
 
 import java.util.List;
 
-import cophieu.CoPhieu;
+import org.miranchuk.cophieu.CoPhieu;
 
 public abstract class TaoCauTang {
 	public abstract String taoCauTang(List<CoPhieu> list);

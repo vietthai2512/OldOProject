@@ -1,8 +1,8 @@
-package taocau;
+package org.miranchuk.taocau;
 
 import java.util.List;
 
-import cophieu.CoPhieu;
+import org.miranchuk.cophieu.CoPhieu;
 
 public class TheoDoi {
 	//ktra xem 1 ngày trong tháng bất kì có hợp lệ hay không

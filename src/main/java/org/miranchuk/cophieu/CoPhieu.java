@@ -1,4 +1,4 @@
-package cophieu;
+package org.miranchuk.cophieu;
 
 public class CoPhieu {
 	

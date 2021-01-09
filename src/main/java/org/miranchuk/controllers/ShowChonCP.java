@@ -12,7 +12,7 @@ public class ShowChonCP extends Application
     public void start(Stage stage) throws Exception
     {
         Parent root =
-                FXMLLoader.load(getClass().getResource("/fxml/ChonCP.fxml"));
+                FXMLLoader.load(getClass().getResource("/org.miranchuk/fxml/ChonCP.fxml"));
 
         Scene scene = new Scene(root);
         stage.setTitle("Phân tích cổ phiếu");

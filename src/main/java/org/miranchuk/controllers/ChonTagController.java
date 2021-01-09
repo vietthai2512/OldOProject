@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import cophieu.CoPhieu;
+import org.miranchuk.cophieu.CoPhieu;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
@@ -21,16 +21,16 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import readinput.ReadInput;
-import taocau.TaoCauGiamLienTuc;
-import taocau.TaoCauGiamManh;
-import taocau.TaoCauGiamNhe;
-import taocau.TaoCauKLGiaoDichBe;
-import taocau.TaoCauKLGiaoDichLon;
-import taocau.TaoCauTangLienTuc;
-import taocau.TaoCauTangManh;
-import taocau.TaoCauTangNhe;
-import taocau.TheoDoi;
+import org.miranchuk.readinput.ReadInput;
+import org.miranchuk.taocau.TaoCauGiamLienTuc;
+import org.miranchuk.taocau.TaoCauGiamManh;
+import org.miranchuk.taocau.TaoCauGiamNhe;
+import org.miranchuk.taocau.TaoCauKLGiaoDichBe;
+import org.miranchuk.taocau.TaoCauKLGiaoDichLon;
+import org.miranchuk.taocau.TaoCauTangLienTuc;
+import org.miranchuk.taocau.TaoCauTangManh;
+import org.miranchuk.taocau.TaoCauTangNhe;
+import org.miranchuk.taocau.TheoDoi;
 
 public class ChonTagController 
 {
@@ -263,7 +263,7 @@ public class ChonTagController
     {
     	List<CoPhieu> listcp = new ArrayList<>();
     	try {
-			ReadInput.readInput("cophieu", listcp);
+			ReadInput.readInput("src/main/resources/org.miranchuk/data/cophieuData.txt", listcp);
 			ReadInput.setNgay_Thang(listcp, 1, 1);
 		} catch (IOException e) 
     	{
@@ -291,7 +291,7 @@ public class ChonTagController
 			VBox newVBox = new VBox();
 	    	try
 			{
-	    		newVBox = FXMLLoader.load(getClass().getResource("/fxml/" + name));
+	    		newVBox = FXMLLoader.load(getClass().getResource("/org.miranchuk/fxml/" + name));
 			}
 			catch(IOException e)
 			{
@@ -304,7 +304,7 @@ public class ChonTagController
     public FXMLLoader loadFXML(String name)
     {
     	FXMLLoader loader = new FXMLLoader();
-		loader.setLocation(getClass().getResource("/fxml/" + name));
+		loader.setLocation(getClass().getResource("/org.miranchuk/fxml/" + name));
 		try
 		{
 			loader.load();

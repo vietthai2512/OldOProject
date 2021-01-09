@@ -1,14 +1,13 @@
-package readinput;
+package org.miranchuk.readinput;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import cophieu.CoPhieu;
+import org.miranchuk.cophieu.CoPhieu;
 
 
 public class ReadInput {

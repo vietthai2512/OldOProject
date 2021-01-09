@@ -1,8 +1,8 @@
-package taocau;
+package org.miranchuk.taocau;
 
 import java.util.List;
 
-import cophieu.CoPhieu;
+import org.miranchuk.cophieu.CoPhieu;
 public class TaoCauKLGiaoDichLon extends TaoCauKLGiaoDich
 {
 	public String taoCauKLGiaoDich(List<CoPhieu> list, double a) 

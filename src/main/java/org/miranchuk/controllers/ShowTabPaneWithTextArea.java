@@ -17,7 +17,7 @@ public class ShowTabPaneWithTextArea
 	
 	public void load()
 	{
-		URL location = getClass().getResource("/fxml/TabPaneWithTextArea.fxml");
+		URL location = getClass().getResource("/org.miranchuk/fxml/TabPaneWithTextArea.fxml");
 		fxmlLoader = new FXMLLoader(location);
 		try 
 		{
