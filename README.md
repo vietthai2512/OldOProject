@@ -5,4 +5,4 @@ GUI for my OOP Project with JavaFX. Refactor it to modular project with Gradle. 
 ./gradlew run
 ``` 
 ## Demo
-![demo](https://imgur.com/LN8tzjy)
+![demo](https://media.giphy.com/media/2z0lP21NUC5pUDRQXx/giphy.gif)
